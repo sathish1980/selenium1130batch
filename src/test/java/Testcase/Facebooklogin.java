@@ -42,7 +42,7 @@ public void FacebookLoginwithValidData()
 	test.log(LogStatus.INFO, "username is: kumar.sathish189@gmail.com");
 
 	WebElement password =driver.findElement(By.id("pass"));
-	de.EnterintoTextbox(password,"Admin@123");
+	de.EnterintoTextbox(password,"pass");
 	test.log(LogStatus.INFO, "password is: pass");
 
 	WebElement loginbutton =driver.findElement(By.name("login"));
@@ -72,7 +72,7 @@ public void FacebookLoginwithValidData()
 		test.log(LogStatus.FAIL, test.addScreenCapture(screenshot1));
 		
 	}
-	}
+}
 	
 
 
