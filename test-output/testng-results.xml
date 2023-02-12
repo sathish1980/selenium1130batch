@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="48" started-at="2023-02-11T12:58:05 IST" finished-at="2023-02-11T12:58:05 IST">
+  <suite name="Suite" duration-ms="8801" started-at="2023-02-12T13:12:30 IST" finished-at="2023-02-12T13:12:38 IST">
     <groups>
-      <group name="Sanity">
-        <method signature="Fristclass.Testcase3()[pri:1, instance:TestNGConcepts.Fristclass@1d371b2d]" name="Testcase3" class="TestNGConcepts.Fristclass"/>
-      </group> <!-- Sanity -->
-      <group name="SIT">
-        <method signature="Fristclass.Testcase2()[pri:-1, instance:TestNGConcepts.Fristclass@1d371b2d]" name="Testcase2" class="TestNGConcepts.Fristclass"/>
-        <method signature="Fristclass.Testcase3()[pri:1, instance:TestNGConcepts.Fristclass@1d371b2d]" name="Testcase3" class="TestNGConcepts.Fristclass"/>
-      </group> <!-- SIT -->
     </groups>
-    <test name="Test" duration-ms="48" started-at="2023-02-11T12:58:05 IST" finished-at="2023-02-11T12:58:05 IST">
-      <class name="TestNGConcepts.Fristclass">
-        <test-method status="PASS" signature="Testcase2()[pri:-1, instance:TestNGConcepts.Fristclass@1d371b2d]" name="Testcase2" duration-ms="7" started-at="2023-02-11T12:58:05 IST" finished-at="2023-02-11T12:58:05 IST">
+    <test name="Test" duration-ms="8801" started-at="2023-02-12T13:12:30 IST" finished-at="2023-02-12T13:12:38 IST">
+      <class name="Testcase.Facebooklogin">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:Testcase.Facebooklogin@782663d3]" name="Launch" is-config="true" duration-ms="2362" started-at="2023-02-12T13:12:27 IST" finished-at="2023-02-12T13:12:30 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcase2 -->
-        <test-method status="PASS" signature="Testcase3()[pri:1, instance:TestNGConcepts.Fristclass@1d371b2d]" name="Testcase3" duration-ms="4" started-at="2023-02-11T12:58:05 IST" description="sampledata" finished-at="2023-02-11T12:58:05 IST">
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="EntertheURL()[pri:0, instance:Testcase.Facebooklogin@782663d3]" name="EntertheURL" is-config="true" duration-ms="708" started-at="2023-02-12T13:12:30 IST" finished-at="2023-02-12T13:12:30 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcase3 -->
-      </class> <!-- TestNGConcepts.Fristclass -->
+        </test-method> <!-- EntertheURL -->
+        <test-method status="PASS" signature="FacebookLoginwithValidData()[pri:0, instance:Testcase.Facebooklogin@782663d3]" name="FacebookLoginwithValidData" duration-ms="8065" started-at="2023-02-12T13:12:30 IST" finished-at="2023-02-12T13:12:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookLoginwithValidData -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcase.Facebooklogin@782663d3]" name="teardown" is-config="true" duration-ms="767" started-at="2023-02-12T13:12:38 IST" finished-at="2023-02-12T13:12:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcase.Facebooklogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

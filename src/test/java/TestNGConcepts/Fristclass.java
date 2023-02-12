@@ -4,7 +4,7 @@ import org.testng.annotations.*;
 
 public class Fristclass {
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void AfterMethod()
 	{
 		System.out.println("AfterMethod");
@@ -17,13 +17,13 @@ public class Fristclass {
 		System.out.println("BeforeClass");
 	}
 	
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void BeforeMethod()
 	{
 		System.out.println("BeforeMethod");
 	}
 	
-	@Test(priority=-1,groups="SIT")
+	@Test(priority=-1,groups="SIT",dependsOnMethods="Testcase1")
 	public void Testcase2()
 	{
 		System.out.println("Testcase2");
