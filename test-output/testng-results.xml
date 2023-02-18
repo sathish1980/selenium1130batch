@@ -1,25 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8801" started-at="2023-02-12T13:12:30 IST" finished-at="2023-02-12T13:12:38 IST">
+  <suite name="Suite" duration-ms="26036" started-at="2023-02-18T12:25:02 IST" finished-at="2023-02-18T12:25:28 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8801" started-at="2023-02-12T13:12:30 IST" finished-at="2023-02-12T13:12:38 IST">
+    <test name="Test" duration-ms="26036" started-at="2023-02-18T12:25:02 IST" finished-at="2023-02-18T12:25:28 IST">
       <class name="Testcase.Facebooklogin">
-        <test-method status="PASS" signature="Launch()[pri:0, instance:Testcase.Facebooklogin@782663d3]" name="Launch" is-config="true" duration-ms="2362" started-at="2023-02-12T13:12:27 IST" finished-at="2023-02-12T13:12:30 IST">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:Testcase.Facebooklogin@1990a65e]" name="Launch" is-config="true" duration-ms="2399" started-at="2023-02-18T12:24:59 IST" finished-at="2023-02-18T12:25:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launch -->
-        <test-method status="PASS" signature="EntertheURL()[pri:0, instance:Testcase.Facebooklogin@782663d3]" name="EntertheURL" is-config="true" duration-ms="708" started-at="2023-02-12T13:12:30 IST" finished-at="2023-02-12T13:12:30 IST">
+        <test-method status="PASS" signature="EntertheURL()[pri:0, instance:Testcase.Facebooklogin@1990a65e]" name="EntertheURL" is-config="true" duration-ms="660" started-at="2023-02-18T12:25:02 IST" finished-at="2023-02-18T12:25:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EntertheURL -->
-        <test-method status="PASS" signature="FacebookLoginwithValidData()[pri:0, instance:Testcase.Facebooklogin@782663d3]" name="FacebookLoginwithValidData" duration-ms="8065" started-at="2023-02-12T13:12:30 IST" finished-at="2023-02-12T13:12:38 IST">
+        <test-method status="PASS" signature="FacebookLoginwithValidData(java.lang.String,java.lang.String)[pri:0, instance:Testcase.Facebooklogin@1990a65e]" name="FacebookLoginwithValidData" duration-ms="6660" started-at="2023-02-18T12:25:03 IST" data-provider="GetFBusernameData" finished-at="2023-02-18T12:25:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FacebookLoginwithValidData -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcase.Facebooklogin@782663d3]" name="teardown" is-config="true" duration-ms="767" started-at="2023-02-12T13:12:38 IST" finished-at="2023-02-12T13:12:39 IST">
+        <test-method status="PASS" signature="FacebookLoginwithValidData(java.lang.String,java.lang.String)[pri:0, instance:Testcase.Facebooklogin@1990a65e]" name="FacebookLoginwithValidData" duration-ms="6456" started-at="2023-02-18T12:25:09 IST" data-provider="GetFBusernameData" finished-at="2023-02-18T12:25:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookLoginwithValidData -->
+        <test-method status="PASS" signature="FacebookLoginwithValidData(java.lang.String,java.lang.String)[pri:0, instance:Testcase.Facebooklogin@1990a65e]" name="FacebookLoginwithValidData" duration-ms="6396" started-at="2023-02-18T12:25:16 IST" data-provider="GetFBusernameData" finished-at="2023-02-18T12:25:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookLoginwithValidData -->
+        <test-method status="PASS" signature="FacebookLoginwithValidData(java.lang.String,java.lang.String)[pri:0, instance:Testcase.Facebooklogin@1990a65e]" name="FacebookLoginwithValidData" duration-ms="5619" started-at="2023-02-18T12:25:22 IST" data-provider="GetFBusernameData" finished-at="2023-02-18T12:25:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookLoginwithValidData -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcase.Facebooklogin@1990a65e]" name="teardown" is-config="true" duration-ms="785" started-at="2023-02-18T12:25:28 IST" finished-at="2023-02-18T12:25:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
