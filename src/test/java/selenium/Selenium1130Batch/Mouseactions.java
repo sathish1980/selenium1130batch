@@ -47,6 +47,15 @@ public class Mouseactions {
 		mouseaction.moveToElement(driver.findElement(By.id("form:drag_content"))).dragAndDrop(driver.findElement(By.id("form:drag_content")), driver.findElement(By.id("form:drop_content"))).perform();
 	}
 	
+	public void DraganadDrop()
+	{
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.navigate().to("https://leafground.com/drag.xhtml");
+		Actions mouseaction= new Actions(driver);
+		mouseaction.moveToElement(driver.findElement(By.xpath("//*[@id='form:drag_content']"))).dragAndDrop(driver.findElement(By.xpath("//*[@id='form:drag_content']")), driver.findElement(By.xpath("//*[@id='form:drop_content']"))).perform();
+	}
+	
 	public void progressbar()
 	{
 		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\driverfiles\\chromedriver_win32\\chromedriver.exe");
